@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Twodemo_2.0</string>
+    <string name="app_home">首页</string>
+    <string name="app_class">分类</string>
+    <string name="app_creat">购物车</string>
+    <string name="app_user">我的</string>
+
+    <string name="user_goods">商品</string>
+    <string name="user_shop">店铺</string>
+    <string name="user_footer">我的足迹</string>
+</resources>

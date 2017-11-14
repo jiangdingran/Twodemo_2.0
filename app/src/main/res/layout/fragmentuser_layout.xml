@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/colorNav_home_color"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_default_user_head"
+                android:layout_centerInParent="true"
+                android:id="@+id/imgLogin"
+                />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sss"
+                    android:layout_below="@+id/imgLogin"
+                    android:layout_centerInParent="true"
+                    android:textSize="20dp"
+                    android:textColor="#fff"
+                    android:id="@+id/textname"
+                    />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/colorNav_homesearch_color"
+            android:orientation="horizontal"
+            >
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <RadioButton
+                    style="@style/user_nav_style"
+                    android:drawableTop="@mipmap/ic_collection_goods"
+                    android:text="@string/user_goods"
+                    />
+                <RadioButton
+                    style="@style/user_nav_style"
+                    android:drawableTop="@mipmap/ic_collection_store"
+                    android:text="@string/user_shop"
+                    />
+                <RadioButton
+                    style="@style/user_nav_style"
+                    android:drawableTop="@mipmap/ic_user_footprint"
+                    android:text="@string/user_footer"
+                    />
+            </RadioGroup>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#fff"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        >
+        <include
+            layout="@layout/dingdan_layout"
+            ></include>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#fff"
+        android:layout_marginTop="10dp"
+        >
+        <include
+            layout="@layout/mymoney_laoout"
+            ></include>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#fff"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        >
+        <include
+            layout="@layout/shuhuodizhi_layout"
+            ></include>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#fff"
+        >
+        <RadioButton
+            style="@style/user_dingdan_style"
+            android:drawableTop="@mipmap/gv1"
+            />
+        <RadioButton
+            style="@style/user_dingdan_style"
+            android:drawableTop="@mipmap/gv2"
+            />
+        <RadioButton
+            style="@style/user_dingdan_style"
+            android:drawableTop="@mipmap/gv3"
+            />
+        <RadioButton
+            style="@style/user_dingdan_style"
+            android:drawableTop="@mipmap/gv4"
+            />
+        <RadioButton
+            style="@style/user_dingdan_style"
+            android:drawableTop="@mipmap/gv5"
+            />
+
+    </RadioGroup>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#fff"
+        >
+        <RadioButton
+            style="@style/user_dingdan_style"
+            android:drawableTop="@mipmap/gv6"
+            />
+        <RadioButton
+            style="@style/user_dingdan_style"
+            android:drawableTop="@mipmap/gv7"
+            />
+        <RadioButton
+            style="@style/user_dingdan_style"
+            android:drawableTop="@mipmap/gv8"
+            />
+        <RadioButton
+            style="@style/user_dingdan_style"
+            android:drawableTop="@mipmap/gv9"
+            />
+        <RadioButton
+            style="@style/user_dingdan_style"
+            android:drawableTop="@mipmap/gv10"
+            />
+    </RadioGroup>
+
+
+</LinearLayout>

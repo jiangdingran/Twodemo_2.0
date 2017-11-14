@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bwie.test.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragmentlayout"
+        android:layout_above="@+id/line"
+        ></FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#ffffff"
+            >
+
+            <RadioButton
+                android:id="@+id/btn1"
+                style="@style/navBottom"
+                android:drawableTop="@drawable/nav_home"
+                android:text="@string/app_home"
+                />
+            <RadioButton
+                android:id="@+id/btn2"
+                style="@style/navBottom"
+                android:drawableTop="@drawable/nav_class"
+                android:text="@string/app_class"
+                />
+            <RadioButton
+                android:id="@+id/btn3"
+                style="@style/navBottom"
+                android:drawableTop="@drawable/nav_creat"
+                android:text="@string/app_creat"
+                />
+            <RadioButton
+                android:id="@+id/btn4"
+                style="@style/navBottom"
+                android:drawableTop="@drawable/nav_user"
+                android:text="@string/app_user"
+                />
+        </RadioGroup>
+
+    </LinearLayout>
+
+</RelativeLayout>

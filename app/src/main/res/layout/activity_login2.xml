@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/uik_nav_home_selected"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <EditText
+            style="@style/login_mobil"
+            android:id="@+id/editmobile"
+            android:hint="手机号/会员号/邮箱"
+            />
+        <EditText
+            android:layout_below="@+id/editmobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editpassword"
+            android:hint="请输入密码"
+            android:layout_marginTop="10dp"
+            />
+
+
+
+        <TextView
+            android:text="新用户注册"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editpassword"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:id="@+id/tvzhuce"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="登陆"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:layout_marginTop="37dp"
+            android:id="@+id/btnlogin"
+            android:layout_below="@+id/tvzhuce"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/shap"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+    </RelativeLayout>
+</LinearLayout>

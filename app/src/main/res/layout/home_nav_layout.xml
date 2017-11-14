@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        style="@style/home_nav_img_code"
+        android:src="@mipmap/ic_normal_code"
+        />
+    <EditText
+        style="@style/home_search_style"
+        android:focusable="false"
+        android:drawableRight="@mipmap/ic_normal_search"
+        />
+    <ImageView
+        style="@style/home_message_style"
+        android:src="@mipmap/location"
+        android:id="@+id/address"
+        />
+</LinearLayout>
